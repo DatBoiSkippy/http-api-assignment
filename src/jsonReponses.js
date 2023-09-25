@@ -1,3 +1,4 @@
+
 const respond = (request, response, status, object, type) => {
   response.writeHead(status, { 'Content-Type': type });
   response.write(object);
